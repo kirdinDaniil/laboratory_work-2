@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float m;
+    scanf("%f",&m);
+    float n;
+    scanf("%f", &n);
+    float z1 = ((m-1)* sqrt(m)-(n-1)* sqrt(n))/(sqrt(m*m*m*n)+(n*m)+(m*m)-m);
+    float z2 = (sqrt(m)- sqrt(n))/m;
+    printf("z1 = %f\n", z1);
+    printf("z2 = %f", z2);
+    return 0;
+}
+
