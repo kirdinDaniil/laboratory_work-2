@@ -1,0 +1,9 @@
+#include stdio.h
+
+int main(){
+    int a;
+    scanf (%d, &a);
+    printf(1 - yes, 0 - no\n);
+    printf(answer %d,(a=33) && (a=88));
+    return 0;
+}
