@@ -1,0 +1,16 @@
+#include "stdio.h"
+
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf("2: %hx\n",a);
+    printf("3: %hx\n",a);
+    int b;
+    b = a<<4;
+    printf("   %hx\n",b);
+    printf("4: %x\n",~a);
+    int x;
+    scanf("%x",&x);
+    printf("5: %x", x&a);
+    return 0;
+}
