@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled4" -B"/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled4/cmake-build-debug"
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab5 -B/Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab5/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

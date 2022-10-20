@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/zuzorqa/Desktop/первая$ неклассическая$ папка/основы/лабы/untitled3/cmake-build-debug/
+cmake_ninja_workdir = /Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled3
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/zuzorqa/Desktop/первая$ неклассиче�
 
 build cmake_object_order_depends_target_untitled3: phony || CMakeFiles/untitled3.dir
 
-build CMakeFiles/untitled3.dir/main.c.o: C_COMPILER__untitled3_Debug /Users/zuzorqa/Desktop/первая$ неклассическая$ папка/основы/лабы/untitled3/main.c || cmake_object_order_depends_target_untitled3
+build CMakeFiles/untitled3.dir/main.c.o: C_COMPILER__untitled3_Debug /Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/main.c || cmake_object_order_depends_target_untitled3
   DEP_FILE = CMakeFiles/untitled3.dir/main.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/untitled3.dir
@@ -76,7 +76,7 @@ build untitled3: C_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/m
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled3/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled3/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled3" -B"/Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled3/cmake-build-debug"
+  COMMAND = cd /Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4 -B/Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/zuzorqa/Desktop/первая неклассическая папка/основы/лабы/untitled3/cmake-build-debug
+# Folder: /Users/zuzorqa/Desktop/laboratory_work-2/OP/OP_Lab4/cmake-build-debug
 
 build all: phony untitled3
 
